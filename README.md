@@ -1,0 +1,3 @@
+# Implicit Type Coercion Bug in TypeScript
+
+This repository demonstrates a common error in TypeScript where type safety is bypassed due to implicit type coercion. The `add` function is defined to accept two numbers, but a string is passed as the second argument, resulting in a runtime error despite TypeScript's compile-time type checking.  The solution shows how to use strict type checking to catch such errors.
